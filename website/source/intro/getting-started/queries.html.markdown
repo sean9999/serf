@@ -39,7 +39,7 @@ Event handlers used with queries are even more powerful, as their
 output is sent back to the query originator. This enables the query make
 a "request", while the event handler can generate the response.
 
-For example, if we had a "load" custom event, we might create return
+For example, if we had a "load" custom event, we might create a response that returns
 the current load average of the machine.
 
 Serf agents must be configured to handle queries before they will
