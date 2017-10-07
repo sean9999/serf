@@ -36,7 +36,7 @@ If the cluster were made up of multiple members, all of the reachable
 members would have received this query.
 
 Event handlers used with queries are even more powerful, as their
-output is sent back to the query originator. This enables the query make
+output is sent back to the query originator. This enables the query to make
 a "request", while the event handler can generate the response.
 
 For example, if we had a "load" custom event, we might create return
